@@ -3,6 +3,9 @@ name: Custom Env Variables
 on:
   workflow_dispatch:
 
+env:
+  VAR_1: "workflow level"
+  
 jobs:
   build:
     runs-on: ubuntu-latest
