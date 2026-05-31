@@ -12,7 +12,7 @@ jobs:
 
     steps:
 
-     - name: dispaly value of VAR_1
+     - name: disply1 value of VAR_1
        run: echo "Value of VAR_1 is $VAR_1"
         
       - name: write value to $GITHUB_ENV file
