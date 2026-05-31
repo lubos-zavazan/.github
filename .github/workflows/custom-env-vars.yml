@@ -21,6 +21,14 @@ jobs:
       - name: disply2 value of VAR_1
         run: echo "Value of VAR_1 is $VAR_1"
 
+      - name: disply3 value of VAR_1
+        run: echo "Value of VAR_1 is $VAR_1"
+        env:
+          VAR_1: "disply3 level"
+
+      - name: disply4 value of VAR_1
+        run: echo "Value of VAR_1 is $VAR_1"
+        
       - name: Set color
         id: color-selector							
         run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
