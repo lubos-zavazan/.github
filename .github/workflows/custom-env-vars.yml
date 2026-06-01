@@ -19,7 +19,6 @@ jobs:
             echo "Inside group"
             echo "::endgroup::"
             echo "::add-mask::Mona The Octocat"
-            echo "{markdown content}" >> $GITHUB_STEP_SUMMARY
             echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
 
             
